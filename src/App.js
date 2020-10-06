@@ -1,25 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { createContext } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route, 
+  Link,
+} from "react-router-dom";
 import './App.css';
+import Booking from './component/Booking/Booking';
+import Homepage from './component/HomePage/Homepage';
+import PrivateRoute from './component/PrivateRoute/PrivateRoute';
+import Hotel from './component/Hotel/Hotel';
+import SignUp from './component/SignUp/SignUp';
+import LogIn from './component/LogIn/LogIn';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Switch>
+          <Route path="/home">
+          <Homepage></Homepage>
+          </Route>
+          <Route path="/booking/:id">
+          <Booking></Booking>
+          </Route>
+          <PrivateRoute path="/startbooking">
+            <Hotel></Hotel>
+          </PrivateRoute>
+          <Route path="/create">
+            <SignUp></SignUp>
+          </Route>
+          <Route path="/login">
+            <LogIn></LogIn>
+          </Route>
+          <Route path="/login2">
+            <LogIn></LogIn>
+          </Route>
+          <Route path="/signup/login">
+            <LogIn></LogIn>
+          </Route>
+            <Route exact path="/">
+            <Homepage></Homepage>
+          </Route>
+        </Switch>
+      </Router>
+
   );
 }
 

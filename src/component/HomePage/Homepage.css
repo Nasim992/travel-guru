@@ -1,0 +1,79 @@
+/* Home page Background section starts  */
+*{
+    margin:0;
+}
+.homepage {
+    background:url(../../images/Rectangle\ 1.png);
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.438);
+    background-blend-mode:color-burn;
+    color:white;
+}
+/* Home page Background section ends   */
+
+/* Place description section starts */
+
+.placeDetails{
+    width: 70%;
+    color: white;
+}
+.placeDetails h1{
+width: 378.53px;
+height: 110px;
+left: 135px;
+top: 236px;
+font-family: Bebas Neue;
+font-size: 90px;
+line-height: 117px;
+color: #FFFFFF;
+}
+.placeDetails p{
+width: 455px;
+height: 80px;
+left: 135px;
+top: 350px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+
+}
+.details{
+margin-left: 150px;
+margin-top: 100px;
+}
+.placeDetails button{
+    padding: 12px 29px;
+    border: 1px solid #000000;
+    width: 160px;
+    height: 48px;
+    left: 135px;
+    top: 456px;
+    background: #F9A51A;
+    border-radius: 15px;
+}
+.placeDetails button a {
+    color : black !important;
+    font-weight:bold;
+}
+
+/* Place Description section ends  */
+
+/* Carousel section starts  */
+  .carousel{
+      top: 70%;
+      transform: translateY(-50%); 
+      height: 400px;
+      width: 300px;
+  }
+  .carousel img {
+      border:2px solid  #F9A51A;
+      border-radius: 23px;
+  }
+  /* Carousel sections ends  */

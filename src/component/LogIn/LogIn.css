@@ -1,0 +1,35 @@
+#form{
+    width: 570px;
+    margin: 0 auto;
+    background-color:transparent;
+    box-sizing: border-box;
+    border: 1px solid #ababab;
+    border-radius:5px
+}
+#form input{
+    box-sizing: border-box;
+    width:100%;
+    padding:10px;
+    margin: 10px 0 !important;
+    border: none;
+    border-bottom: 1px solid #C5C5C5;
+    font-size: 16px;
+    font: weight 500;
+    line-height: 20px;
+    color: #000000;
+}
+#form input[type=button]{
+    background-color: #F9A51A;
+}
+.checkBox{
+    height: 10px;
+    width:10px
+}
+input[type="checkbox"]{
+    position: relative;
+}
+#remember{
+    height: 10px;
+    width: 10px !important;
+
+}

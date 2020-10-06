@@ -1,0 +1,77 @@
+.navStyle{
+    margin: 0 150px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top:20px;
+}
+.logo {
+  flex-basis: 10%;
+  max-width: 10%;
+}
+.menu {
+    display: flex;
+    padding:20px;
+}
+
+.menuName {
+    width: 45px;
+    height: 20px;
+    left: 749px;
+    top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF !important;
+    margin-top:10px;
+}
+.menuName ul{
+    padding: 0;
+    margin: 0;
+}
+.menuName ul li{
+    list-style: none;
+    display: inline;
+
+}
+.menuName ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-left:50px;
+    transition: 0.5s;
+
+}
+.menuName .ul li a{
+    color: #FFFFFF;
+}
+.menuName ul li a:hover,.menuName ul li a:active{
+    padding:10px 20px;
+    background-color: #F9A51A;
+    border-radius: 5px;
+    color:black;
+    
+}
+.logo img {
+width: 120.26px;
+height: 56px;
+left: 135px;
+top: 35px;
+}
+.logo .img{
+    filter: brightness(0) invert(1);
+}
+.search{
+width: 370px;
+height: 44px;
+left: 335px;
+top: 39px;
+background: rgba(255, 255, 255, 0.2);
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.search::placeholder {
+    color: white;
+}
