@@ -1,0 +1,11 @@
+
+.menuName ul li a{
+    color: black;
+}
+.logo img {
+    filter:invert(0)
+}
+.navStyle{
+    margin-bottom: 20px;
+}
+

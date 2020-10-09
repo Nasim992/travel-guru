@@ -1,0 +1,30 @@
+.loginWithSocial{
+    width: 400px;
+    margin: 0 auto;
+}
+.loginWithSocial p{
+    text-align: center;
+    margin: 20px 0;
+}
+.loginWithSocial i{
+    height: 2px;
+    width: 45%;
+    background: #AAAAAA;
+    display: inline-block;
+}
+.loginWithSocial button{
+    width:100%;
+    padding:10px;
+    margin: 10px 0;
+    background-color:transparent;
+    border-radius: 30px;
+    border: 1px solid #AAAAAA;
+    
+}
+button:focus {
+    outline:none !important;
+}
+.loginWithSocial button:hover {
+  background-color: rgba(243, 189, 11, 0.849);
+  font-weight:bold;
+}

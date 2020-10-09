@@ -10,20 +10,20 @@ var Data = [
                 img: "https://i.ibb.co/RpJrWXK/Rectangle-26.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 32,
+                price: 60,
                 
             },
             {
                 img: "https://i.ibb.co/8dpjdRK/Rectangle-27.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 52,
+                price: 70,
             },
             {
                 img: "https://i.ibb.co/L6D02JS/Rectangle-28.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 62,
+                price: 80,
             }
         ]
     },
@@ -38,20 +38,20 @@ var Data = [
                 img: "https://i.ibb.co/RpJrWXK/Rectangle-26.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 32,
+                price: 90,
                 
             },
             {
                 img: "https://i.ibb.co/8dpjdRK/Rectangle-27.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 52,
+                price: 80,
             },
             {
                 img: "https://i.ibb.co/L6D02JS/Rectangle-28.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 62,
+                price: 80,
             }
         ]
     },
@@ -66,20 +66,20 @@ var Data = [
                 img: "https://i.ibb.co/RpJrWXK/Rectangle-26.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 32,
+                price: 80,
                 
             },
             {
                 img: "https://i.ibb.co/8dpjdRK/Rectangle-27.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 52,
+                price: 90,
             },
             {
                 img: "https://i.ibb.co/L6D02JS/Rectangle-28.png",
                 heading:"Light bright airy stylish apt & safe peaceful stay",
                 placeDetails: "4 guests   2 bedrooms   2 beds   2 baths Wif Air conditioning Kitchen Cancellation fexibility availiable",
-                price: 62,
+                price: 90,
             }
         ]
     }
